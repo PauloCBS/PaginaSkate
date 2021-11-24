@@ -9,14 +9,39 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="./flex-e-grid-main/assets/css/reset.css">
 <link rel="stylesheet" href="./flex-e-grid-main/assets/css/estilo.css">
-    <title>Document</title>
+    <title>HZC</title>
 </head>
 <body>
     <header class="cabecalho">
-        <button class="cabecalho__menu">Menu</button>
-        <img src="./flex-e-grid-main/assets/img/logo.svg" alt="" class="cabecalho__logo">
-        <button class="cabecalho__notificacao">Notificacao</button>
+        <button class="cabecalho__menu" aria-label="Botao de menu"><i></i></button>
+        <img src="./flex-e-grid-main/assets/img/logo.svg" alt="logotipo HZC" class="cabecalho__logo">
+        <button class="cabecalho__notificacao" aria-label="notificação"><i></i></button>
     </header>
+    <nav class="menu__lateral">
+        <img class="menu__lateral__logo" src="./flex-e-grid-main/assets/img/logo.svg" alt="Logotipo da HZC">
+        <a class="menu__lateral__link menu__lateral__link__inicio ativo" href="#">Inicío</a>
+        <a class="menu__lateral__link menu__lateral__link__videos" href="#">Videos</a>
+        <a class="menu__lateral__link menu__lateral__link__picos" href="#">Picos</a>
+        <a class="menu__lateral__link menu__lateral__link__integrantes" href="#">Integrantes</a>
+        <a class="menu__lateral__link menu__lateral__link__camisas" href="#">Camisas</a>
+        <a class="menu__lateral__link menu__lateral__link__pinturas" href="#">Pinturas</a>
+    </nav>
+    <main class="principal">
+        <h2 class="principal__titulo">Inicio</h2>
+        <article class="principal__cartao">
+            <img src="./flex-e-grid-main/assets/img/banner-mobile_1.png" alt="banner do catao.">
+            <div class="principal__cartao__conteudo">
+                <p class="principal__cartao__destaque">Video em destaque </p>
+                <h3 class="principal__cartao__titulo">HZC - titulo</h3>
+                <p class="principal__cartao__perfil">Bruno Lopez</p>
+                <p class="principal__cartao__tempo">33 Minutos</p>
+                <p class="principal__cartao__views">33 views</p>
+                <button class="principal__cartao__botao  cartao__botao__destaques"></button>
+
+            </div>
+        </article>
+    </main>
     
+    <script src="./index.js"></script>
 </body>
 </html>
